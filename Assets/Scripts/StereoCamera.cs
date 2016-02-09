@@ -14,8 +14,8 @@ public class StereoCamera : MonoBehaviour {
     void Start ()
     {
         Vector3 eyeOffset = new Vector3(eyeDistance / 2, 0, 0);
-        leftCam.transform.localPosition = -eyeOffset;
-        rightCam.transform.localPosition = eyeOffset;
+        leftCam.transform.localPosition = eyeOffset;
+        rightCam.transform.localPosition = -eyeOffset;
     }
 	
 	// Update is called once per frame
